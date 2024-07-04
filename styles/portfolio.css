@@ -1,0 +1,60 @@
+/* nav related styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* common shared styles */
+*{
+    margin: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 800;
+}
+ 
+.maryheader{
+    font-size: 45px;
+    font-weight: 800px;
+    font-style: normal;
+    line-height: normal;
+    color: #181818;
+    margin-top: 51px;
+    /* margin-left: 226px; */
+}
+.maryheader_a{
+    color: #FD6E0A;
+}
+.navul{
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+    
+}
+
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav a{
+    text-transform: none;
+    color: #474747;
+}
+
+nav button{
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: 0px ;
+    font-size: 20px;
+    font-weight: 200px;
+}
