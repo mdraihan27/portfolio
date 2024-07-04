@@ -286,3 +286,82 @@ main{
     margin-top: 23px;
 }
 
+.download_cv{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.msg_text{
+    width: 562px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.social_links{
+    display: flex;
+    gap: 20px;
+
+    
+
+}
+
+.footer_column{
+    width: 50%;
+}
+
+.footer_title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact_form input, textarea{
+    display: block;
+}
+
+.nameinp, .emailinp, .msginp{
+    font-size: 16px;
+    color: #757575;
+    width: 461px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 25px;
+}
+
+.nameinp{
+    margin-top: 15px;
+}
+
+.nameinp, .emailinp{
+    height: 64px;
+    
+}
+
+.msginp{
+    height: 180px;
+    
+}
+
+.submit{
+ color: white;
+ background-color: #FD6E0A;
+ font-size:20px ;
+ border-radius: 5px;
+ border: 0px;
+ width: 150px;
+ height: 64px;
+
+
+}
