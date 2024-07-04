@@ -1,12 +1,6 @@
 /* nav related styles */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-/* common shared styles */
 *{
     margin: 0;
 }
@@ -17,16 +11,32 @@ body{
   font-style: normal;
   font-variation-settings:
     "wdth" 800;
+
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
  
 .maryheader{
     font-size: 45px;
-    font-weight: 800px;
+    font-weight: 800;
     font-style: normal;
     line-height: normal;
     color: #181818;
     margin-top: 51px;
-    /* margin-left: 226px; */
+    margin-left: 226px; 
 }
 .maryheader_a{
     color: #FD6E0A;
@@ -35,6 +45,7 @@ body{
     display: flex;
     align-items: center;
     margin-top: 51px;
+    margin-right: 200px;
     
 }
 
@@ -56,5 +67,132 @@ nav button{
     border-radius: 5px;
     border: 0px ;
     font-size: 20px;
-    font-weight: 200px;
+    font-weight: 200;
+}
+
+.banner{
+    padding: 30px 40px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: ;
+}
+.bannertext{
+    max-width: 585px;
+}
+.banner h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner h1{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.hardyimg{
+     width: 584px;
+}
+
+.cv_button{
+    background-color:#FD6E0A;
+    width: 200px;
+    height: 64px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+    margin-right: 30px;
+
+}
+
+.contact_button{
+    width: 160px;
+    height: 64px;
+    color: #FD6E0A;
+    font-size: 20px;
+    background-color:#fff8f3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+/* header related styles finish here */
+
+/* main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+     /* about section styles */
+
+.about{
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 120px;
+    
+    max-height: 550px;
+
+    
+
+}
+
+.section_title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    color: #181818;
+    
+}
+
+.about_text{
+    color: #757575;
+    max-width: 827px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.about_info_container{
+    display: flex;
+    margin-top: 20px;
+    /* column-gap: 45px; */
+    justify-content: space-around;
+    
+}
+.about_info{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* row-gap: 5px; */
+    text-align: center;
+}
+
+.info_title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.info_desc{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
