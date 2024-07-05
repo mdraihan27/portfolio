@@ -19,9 +19,9 @@ body{
 }
 header{
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png') ,url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top 24px left 24px;
 }
 nav{
     display: flex;
@@ -110,6 +110,18 @@ nav button{
     border: 0px;
     margin-right: 30px;
 
+
+}
+
+.fa-solid ,.fa-phone{
+    margin-right: 10px;
+    width: 24px;
+
+}
+
+.fa-regular, .fa-circle-down{
+    margin-right: 10px;
+    width: 24px;
 }
 
 .contact_button{
