@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <g stroke="#bcd7ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="32" cy="18" r="8"/>
+    <!-- Shoulders / torso -->
+    <path d="M16 50c0-8.84 7.16-16 16-16s16 7.16 16 16"/>
+    <!-- Support arms/hands -->
+    <path d="M10 44c3-3 7-5 11-6"/>
+    <path d="M54 44c-3-3-7-5-11-6"/>
+  </g>
+</svg>
